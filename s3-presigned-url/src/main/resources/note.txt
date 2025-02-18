@@ -1,0 +1,25 @@
+Upload a Document to S3:
+
+Users upload a document (e.g., a PDF) to an S3 bucket using a presigned URL.
+
+Load the Document to the Browser:
+
+Generate a presigned URL to allow users to view/download the document directly from S3.
+
+Trigger Lambda on S3 Upload:
+
+Configure the S3 bucket to trigger a Lambda function when a new document is uploaded.
+
+Process the Document in Lambda:
+
+The Lambda function reads the document from S3.
+
+Processes the document (e.g., extracts data using AWS Textract).
+
+Saves the processed document to another S3 bucket.
+
+Save Data to Database and Send Email:
+
+The Lambda function saves extracted data to a database (e.g., DynamoDB).
+
+Sends an email notification using Amazon SES.

@@ -1,0 +1,5 @@
+com\document\service\DocumentService.class
+com\document\config\AwsConfig.class
+S3Example.class
+com\document\controller\DocumentController.class
+com\document\DocumentApplication.class
